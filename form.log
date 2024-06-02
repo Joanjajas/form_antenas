@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.14)  2 JUN 2024 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.14)  2 JUN 2024 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,55 +319,75 @@ File: ./images/bocina_h.png Graphic file (type png)
 <use ./images/bocina_h.png>
 Package pdftex.def Info: ./images/bocina_h.png  used on input line 146.
 (pdftex.def)             Requested size: 92.47147pt x 81.74701pt.
-<./images/z_dipolos.png, id=24, 776.9025pt x 470.75874pt>
+<./images/directividad_bocina_e.png, id=24, 649.42625pt x 425.59pt>
+File: ./images/directividad_bocina_e.png Graphic file (type png)
+<use ./images/directividad_bocina_e.png>
+Package pdftex.def Info: ./images/directividad_bocina_e.png  used on input line 154.
+(pdftex.def)             Requested size: 92.47147pt x 60.59525pt.
+<./images/directividad_bocina_h.png, id=25, 649.42625pt x 425.59pt>
+File: ./images/directividad_bocina_h.png Graphic file (type png)
+<use ./images/directividad_bocina_h.png>
+Package pdftex.def Info: ./images/directividad_bocina_h.png  used on input line 160.
+(pdftex.def)             Requested size: 92.47147pt x 60.59525pt.
+<./images/z_dipolos.png, id=26, 776.9025pt x 470.75874pt>
 File: ./images/z_dipolos.png Graphic file (type png)
 <use ./images/z_dipolos.png>
-Package pdftex.def Info: ./images/z_dipolos.png  used on input line 152.
+Package pdftex.def Info: ./images/z_dipolos.png  used on input line 166.
 (pdftex.def)             Requested size: 241.84843pt x 146.54427pt.
-<./images/fa.png, id=25, 478.78876pt x 385.44pt>
+<./images/fa.png, id=27, 478.78876pt x 385.44pt>
 File: ./images/fa.png Graphic file (type png)
 <use ./images/fa.png>
-Package pdftex.def Info: ./images/fa.png  used on input line 158.
+Package pdftex.def Info: ./images/fa.png  used on input line 172.
 (pdftex.def)             Requested size: 241.84843pt x 194.69565pt.
-<./images/reflector.png, id=26, 420.57124pt x 428.60126pt>
+<./images/reflector.png, id=28, 420.57124pt x 428.60126pt>
 File: ./images/reflector.png Graphic file (type png)
 <use ./images/reflector.png>
-Package pdftex.def Info: ./images/reflector.png  used on input line 166.
+Package pdftex.def Info: ./images/reflector.png  used on input line 180.
 (pdftex.def)             Requested size: 241.84843pt x 246.46996pt.
-<./images/reflector_plano_e.png, id=27, 450.68375pt x 516.93124pt>
+<./images/reflector_plano_e.png, id=29, 450.68375pt x 516.93124pt>
 File: ./images/reflector_plano_e.png Graphic file (type png)
 <use ./images/reflector_plano_e.png>
-Package pdftex.def Info: ./images/reflector_plano_e.png  used on input line 173.
+Package pdftex.def Info: ./images/reflector_plano_e.png  used on input line 187.
 (pdftex.def)             Requested size: 92.47147pt x 106.05835pt.
-<./images/reflector_plano_h.png, id=28, 450.68375pt x 516.93124pt>
+<./images/reflector_plano_h.png, id=30, 450.68375pt x 516.93124pt>
 File: ./images/reflector_plano_h.png Graphic file (type png)
 <use ./images/reflector_plano_h.png>
-Package pdftex.def Info: ./images/reflector_plano_h.png  used on input line 179.
+Package pdftex.def Info: ./images/reflector_plano_h.png  used on input line 193.
 (pdftex.def)             Requested size: 92.47147pt x 106.05835pt.
-<./images/esfericas.png, id=29, 1927.2pt x 1745.52126pt>
+<./images/diagrama_dipolo.png, id=31, 434.62375pt x 313.17pt>
+File: ./images/diagrama_dipolo.png Graphic file (type png)
+<use ./images/diagrama_dipolo.png>
+Package pdftex.def Info: ./images/diagrama_dipolo.png  used on input line 201.
+(pdftex.def)             Requested size: 92.47147pt x 66.62778pt.
+<./images/espira_elemental.png, id=32, 359.3425pt x 294.09875pt>
+File: ./images/espira_elemental.png Graphic file (type png)
+<use ./images/espira_elemental.png>
+Package pdftex.def Info: ./images/espira_elemental.png  used on input line 207.
+(pdftex.def)             Requested size: 92.47147pt x 75.68303pt.
+<./images/esfericas.png, id=33, 1927.2pt x 1745.52126pt>
 File: ./images/esfericas.png Graphic file (type png)
 <use ./images/esfericas.png>
-Package pdftex.def Info: ./images/esfericas.png  used on input line 185.
-(pdftex.def)             Requested size: 241.84843pt x 219.04192pt.
- [2 <./images/directividad_broadside.png> <./images/directividad_endfire.png> <./images/bocinas.png> <./images/bocina_e.png> <./images/bocina_h.png> <./images/z_dipolos.png> <./images/fa.png> <./images/reflector.png> <./images/reflector_plano_e.png> <./images/reflector_plano_h.png> <./images/esfericas.png>] (./form.aux)
+Package pdftex.def Info: ./images/esfericas.png  used on input line 214.
+(pdftex.def)             Requested size: 192.7313pt x 174.56235pt.
+ [2 <./images/directividad_broadside.png> <./images/directividad_endfire.png> <./images/bocinas.png> <./images/bocina_e.png> <./images/bocina_h.png> <./images/directividad_bocina_e.png> <./images/directividad_bocina_h.png> <./images/z_dipolos.png> <./images/fa.png> <./images/reflector.png> <./images/reflector_plano_e.png> <./images/reflector_plano_h.png> <./images/diagrama_dipolo.png> <./images/espira_elemental.png> <./images/esfericas.png>] (./form.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2894 strings out of 474116
- 47479 string characters out of 5743682
- 1944187 words of memory out of 5000000
- 25252 multiletter control sequences out of 15000+600000
- 562326 words of font info for 51 fonts, out of 8000000 for 9000
+ 2935 strings out of 474116
+ 48818 string characters out of 5743682
+ 1945187 words of memory out of 5000000
+ 25291 multiletter control sequences out of 15000+600000
+ 562947 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,243b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,243b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on form.pdf (2 pages, 1376075 bytes).
+Output written on form.pdf (2 pages, 3068925 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

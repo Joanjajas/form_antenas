@@ -23,7 +23,7 @@
 \( \left|FA(\psi)\right| = \left|\frac{ \sin(N \frac{\psi}{2}) }{ \sin(\frac{\psi}{2}) } \right|\)
 
 \vspace{0.5cm}
-\( D_{max} = \frac{ S_{max} }{ P_{rad} / 4 \pi r^2}  = \frac{120}{R^{tot}_{in-dip}}N^2_{dip} \)
+\( D_{max} = \frac{ S_{max} }{ P_{rad}} 4\pi r^2  = \frac{ \left|E_{max}\right|^2 }{ P_{rad}} \frac{4\pi r^2}{\eta} = \frac{120}{R^{tot}_{in-dip}}N^2_{dip} \)
 
 \vspace{0.5cm}
 \( D_{boradside} \simeq  2N \dfrac{d}{\lambda}\)
@@ -115,13 +115,13 @@ Error de fase: \( \left \{
 \begin{multicols}{2}
     \begin{figure}[H]
         \centering
-        \textbf{Broadside}
+        \textbf{Broadside N = 10}
         \includegraphics[width=\columnwidth]{directividad_broadside.png}
     \end{figure}
 
     \begin{figure}[H]
         \centering
-        \textbf{Endfire}
+        \textbf{Endfire N = 10}
         \includegraphics[width=\columnwidth]{directividad_endfire.png}
     \end{figure}
 \end{multicols}
@@ -136,14 +136,28 @@ Error de fase: \( \left \{
 \begin{multicols}{2}
     \begin{figure}[H]
         \centering
-        \textbf{Plano E}
+        \textbf{Bocina Plano E}
         \includegraphics[width=\columnwidth]{bocina_e.png}
     \end{figure}
 
     \begin{figure}[H]
         \centering
-        \textbf{Plano H}
+        \textbf{Bocina Plano H}
         \includegraphics[width=\columnwidth]{bocina_h.png}
+    \end{figure}
+\end{multicols}
+
+\begin{multicols}{2}
+    \begin{figure}[H]
+        \centering
+        \textbf{Directividad Bocina Plano E}
+        \includegraphics[width=\columnwidth]{directividad_bocina_e.png}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \textbf{Directividad Bocina Plano H}
+        \includegraphics[width=\columnwidth]{directividad_bocina_h.png}
     \end{figure}
 \end{multicols}
 
@@ -180,11 +194,25 @@ Error de fase: \( \left \{
     \end{figure}
 \end{multicols}
 
+\begin{multicols}{2}
+    \begin{figure}[H]
+        \centering
+        \textbf{Dipolo }\( \frac{\lambda}{2} \vspace{0.6cm} \)
+        \includegraphics[width=\columnwidth]{diagrama_dipolo.png}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \(\textbf{ Espira elemental } \newline (a \ll \lambda) \)
+        \includegraphics[width=\columnwidth]{espira_elemental.png}
+    \end{figure}
+\end{multicols}
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\columnwidth]{esfericas.png}
+    \textbf{Coordenadas esféricas}
+    \includegraphics[scale=0.1]{esfericas.png}
     \vspace{0.1cm}
-
 
     \(x = r \sin(\theta) \cos(\varphi)\)\\
     \(y = r \sin(\theta) \sin(\varphi)\)\\
