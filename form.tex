@@ -1,4 +1,5 @@
 \documentclass[twocolumn, 8pt]{extarticle}
+
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{multicol}
@@ -23,7 +24,7 @@
 \( \left|FA(\psi)\right| = \left|\frac{ \sin(N \frac{\psi}{2}) }{ \sin(\frac{\psi}{2}) } \right|\)
 
 \vspace{0.5cm}
-\( D_{max} = \frac{ S_{max} }{ P_{rad}} 4\pi r^2  = \frac{ \left|E_{max}\right|^2 }{ P_{rad}} \frac{4\pi r^2}{\eta} = \frac{120}{R^{tot}_{in-dip}}N^2_{dip} \)
+\( D_{max} = \frac{ S_{max} }{ P_{rad}} 4\pi r^2  = \frac{ \left|E_{max}\right|^2 }{ P_{rad}} \frac{4\pi r^2}{\eta} = \frac{120}{R^{tot}_{in-dip}}N^2 \)
 
 \vspace{0.5cm}
 \( D_{boradside} \simeq  2N \dfrac{d}{\lambda}\)
@@ -37,18 +38,18 @@
 \vspace{0.5cm}
 \(\left \{
 \begin{array}{l}
-    k_x = k \sin(\theta) \cos(\varphi) \\
-    k_y = k \sin(\theta) \sin(\varphi) \\
-    k_z = k \cos(\theta)
+	k_x = k \sin(\theta) \cos(\varphi) \\
+	k_y = k \sin(\theta) \sin(\varphi) \\
+	k_z = k \cos(\theta)
 \end{array}
 \right .
 \)
 
 \vspace{0.5cm}
-\( \text{Distancia entre nulos: } \frac{ 2\pi }{ N }, \frac{ 4\pi }{ N } , ... \ , 2\pi \)
+\( \text{Nulos del FA: } \frac{ 2\pi }{ N }, \frac{ 4\pi }{ N }, \frac{ 6\pi }{ N }, \, \dots  ,2\pi \frac{N - 1}{N} \)
 
 \vspace{0.5cm}
-\( NLPS = 20 \log_{10} \left(\frac{ N }{\left|FA\left(\frac{ 3\pi }{ 2N }\right)\right|} \right) = 20 \log_{10} \left(N \sin\left( \frac{ 3\pi }{ 2N }\right)\right) dB \)
+\( NLPS = 20 \log_{10} \left(\frac{ N }{\left|FA\left(\frac{ 3\pi }{ N }\right)\right|} \right) = 20 \log_{10} \left(N \sin\left( \frac{ 3\pi }{ 2N }\right)\right) dB \)
 
 \vspace{0.5cm}
 \( RDA = 20 \log_{10} \left( \frac{ \left|FA(0)\right| }{ \left|FA(-2kd))\right| } \right) dB \)
@@ -56,8 +57,8 @@
 \vspace{0.5cm}
 \( \text{Acoplamientos mutuos: } \left \{
 \begin{array}{l}
-    V_i = Z_{i1}I_1 + Z_{i2}I_2 + \dots + Z_{ij}I_j \\ \\
-    Z_i = \frac{V_i}{I_i} = Z_{i1} \frac{I_1}{I_i} + Z_{i2} \frac{I_2}{I_i} + \dots + Z_{ij} \frac{I_j}{I_i}
+	V_i = Z_{i1}I_1 + Z_{i2}I_2 + \dots + Z_{ij}I_j \\ \\
+	Z_i = \frac{V_i}{I_i} = Z_{i1} \frac{I_1}{I_i} + Z_{i2} \frac{I_2}{I_i} + \dots + Z_{ij} \frac{I_j}{I_i}
 \end{array}
 \right .
 \)
@@ -76,8 +77,8 @@
 \vspace{0.5cm}
 Error de fase: \( \left \{
 \begin{array}{l}
-    2\pi s \\
-    2\pi t
+	\text{Plano E} \rightarrow 2\pi s \\
+	\text{Plano H} \rightarrow 2\pi t \\
 \end{array}
 \right . \)
 
@@ -113,110 +114,110 @@ Error de fase: \( \left \{
 \newpage
 
 \begin{multicols}{2}
-    \begin{figure}[H]
-        \centering
-        \textbf{Broadside N = 10}
-        \includegraphics[width=\columnwidth]{directividad_broadside.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Broadside N = 10}
+		\includegraphics[width=\columnwidth]{directividad_broadside.png}
+	\end{figure}
 
-    \begin{figure}[H]
-        \centering
-        \textbf{Endfire N = 10}
-        \includegraphics[width=\columnwidth]{directividad_endfire.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Endfire N = 10}
+		\includegraphics[width=\columnwidth]{directividad_endfire.png}
+	\end{figure}
 \end{multicols}
 
 \begin{figure}[H]
-    \centering
-    \textbf{Bocinas}
-    \centering
-    \includegraphics[width=\columnwidth]{bocinas.png}
+	\centering
+	\textbf{Bocinas}
+	\centering
+	\includegraphics[width=\columnwidth]{bocinas.png}
 \end{figure}
 
 \begin{multicols}{2}
-    \begin{figure}[H]
-        \centering
-        \textbf{Bocina Plano E}
-        \includegraphics[width=\columnwidth]{bocina_e.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Bocina Plano E}
+		\includegraphics[width=\columnwidth]{bocina_e.png}
+	\end{figure}
 
-    \begin{figure}[H]
-        \centering
-        \textbf{Bocina Plano H}
-        \includegraphics[width=\columnwidth]{bocina_h.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Bocina Plano H}
+		\includegraphics[width=\columnwidth]{bocina_h.png}
+	\end{figure}
 \end{multicols}
 
 \begin{multicols}{2}
-    \begin{figure}[H]
-        \centering
-        \textbf{Directividad Bocina Plano E}
-        \includegraphics[width=\columnwidth]{directividad_bocina_e.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Directividad Bocina Plano E}
+		\includegraphics[width=\columnwidth]{directividad_bocina_e.png}
+	\end{figure}
 
-    \begin{figure}[H]
-        \centering
-        \textbf{Directividad Bocina Plano H}
-        \includegraphics[width=\columnwidth]{directividad_bocina_h.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Directividad Bocina Plano H}
+		\includegraphics[width=\columnwidth]{directividad_bocina_h.png}
+	\end{figure}
 \end{multicols}
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\columnwidth]{z_dipolos.png}
+	\centering
+	\includegraphics[width=\columnwidth]{z_dipolos.png}
 \end{figure}
 
 \begin{figure}[H]
-    \centering
-    \textbf{Factor de array para N = 10}
-    \includegraphics[width=\columnwidth]{fa.png}
+	\centering
+	\textbf{Factor de array para N = 10}
+	\includegraphics[width=\columnwidth]{fa.png}
 \end{figure}
 
 \newpage
 
 \begin{figure}[H]
-    \centering
-    \textbf{Reflector Parabolico}
-    \includegraphics[width=\columnwidth]{reflector.png}
+	\centering
+	\textbf{Reflector Parabolico}
+	\includegraphics[scale=0.4]{reflector.png}
 \end{figure}
 
 \begin{multicols}{2}
-    \begin{figure}[H]
-        \centering
-        \textbf{Reflector plano E}
-        \includegraphics[width=\columnwidth]{reflector_plano_e.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Reflector plano E}
+		\includegraphics[width=\columnwidth]{reflector_plano_e.png}
+	\end{figure}
 
-    \begin{figure}[H]
-        \centering
-        \textbf{Reflector plano H}
-        \includegraphics[width=\columnwidth]{reflector_plano_h.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Reflector plano H}
+		\includegraphics[width=\columnwidth]{reflector_plano_h.png}
+	\end{figure}
 \end{multicols}
 
 \begin{multicols}{2}
-    \begin{figure}[H]
-        \centering
-        \textbf{Dipolo }\( \frac{\lambda}{2} \vspace{0.6cm} \)
-        \includegraphics[width=\columnwidth]{diagrama_dipolo.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\textbf{Dipolo }\( \frac{\lambda}{2} \vspace{0.5cm} \)
+		\includegraphics[width=\columnwidth]{diagrama_dipolo.png}
+	\end{figure}
 
-    \begin{figure}[H]
-        \centering
-        \(\textbf{ Espira elemental } \newline (a \ll \lambda) \)
-        \includegraphics[width=\columnwidth]{espira_elemental.png}
-    \end{figure}
+	\begin{figure}[H]
+		\centering
+		\(\textbf{ Espira elemental } \newline (a \ll \lambda) \)
+		\includegraphics[width=\columnwidth]{espira_elemental.png}
+	\end{figure}
 \end{multicols}
 
 \begin{figure}[H]
-    \centering
-    \textbf{Coordenadas esféricas}
-    \includegraphics[scale=0.1]{esfericas.png}
-    \vspace{0.1cm}
+	\centering
+	\textbf{Coordenadas esféricas}
+	\includegraphics[scale=0.1]{esfericas.png}
+	\vspace{0.1cm}
 
-    \(x = r \sin(\theta) \cos(\varphi)\)\\
-    \(y = r \sin(\theta) \sin(\varphi)\)\\
-    \(z = r \cos(\theta)\)
+	\(x = r \sin(\theta) \cos(\varphi)\)\\
+	\(y = r \sin(\theta) \sin(\varphi)\)\\
+	\(z = r \cos(\theta)\)
 \end{figure}
 
 \end{document}
