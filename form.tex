@@ -15,7 +15,7 @@
 \begin{document}
 
 \section*{\underline{Arrays}}
-\( \vec{E}_{dipolo} = j \eta \frac{ e^{-jkr} }{ 2 \pi r } I \frac{ \cos\left(\frac{\pi}{2} \cos(\theta)\right) }{\sin{\theta}} \hat{\theta},\ \eta = 120\pi \)
+\( \vec{E}_{x}^{dipolo} = j \eta \frac{ e^{-jkr} }{ 2 \pi r } I \frac{ \cos\left(\frac{\pi}{2} \cos(\theta)\right) }{\sin{\theta}} \hat{\theta},\ \eta = 120\pi \)
 
 \vspace{0.5cm}
 \( Z_{dip}^{\lambda / 2} = 73 + j42 \  \Omega \)
@@ -60,8 +60,9 @@
 \vspace{0.5cm}
 \( \text{Acoplamientos mutuos: } \left \{
 \begin{array}{l}
-	V_i = Z_{i1}I_1 + Z_{i2}I_2 + \dots + Z_{ij}I_j \\ \\
-	Z_i = \frac{V_i}{I_i} = Z_{i1} \frac{I_1}{I_i} + Z_{i2} \frac{I_2}{I_i} + \dots + Z_{ij} \frac{I_j}{I_i}
+	V_i = Z_{i1}I_1 + Z_{i2}I_2 + \dots + Z_{ij}I_j                                                          \\ \\
+	Z_i = \frac{V_i}{I_i} = Z_{i1} \frac{I_1}{I_i} + Z_{i2} \frac{I_2}{I_i} + \dots + Z_{ij} \frac{I_j}{I_i} \\ \\
+	I_1 = 1, I_2 = e^{j\alpha}, I_3 = e^{2\alpha}, \dots, I_i = e^{j(i-1)\alpha}
 \end{array}
 \right .
 \)
@@ -123,10 +124,13 @@ Error de fase: \( \left \{
 \( \tau = \tau_d + \tau_c\)
 
 \vspace{0.5cm}
+\( \tau = 20\log_{10}(C)\ dB \)
+
+\vspace{0.5cm}
 \( \tau_c = 40\log_{10}\left(\cos\left(\frac{\beta}{2}\right)\right) dB \)
 
 \vspace{0.5cm}
-\( \tau_d = 20\log_{10}(d_{boc}(\beta)) dB \)
+\( \tau_d = 20\log_{10}(d_{boc}(\beta))\ dB \)
 
 \vspace{0.5cm}
 \( \frac{f}{D} = \frac{1}{4\tan\left(\frac{\beta}{2}\right)} \)
