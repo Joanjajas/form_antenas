@@ -74,7 +74,11 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT ./images/distribuciones.png
+INPUT ./images/distribuciones.png
+INPUT ./images/distribuciones.png
 OUTPUT form.pdf
+INPUT ./images/distribuciones.png
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT ./images/directividad_broadside.png
@@ -105,10 +109,10 @@ INPUT ./images/directividad_bocina_h.png
 INPUT ./images/directividad_bocina_h.png
 INPUT ./images/directividad_bocina_h.png
 INPUT ./images/directividad_bocina_h.png
-INPUT ./images/z_dipolos.png
-INPUT ./images/z_dipolos.png
-INPUT ./images/z_dipolos.png
-INPUT ./images/z_dipolos.png
+INPUT ./images/z_dipolos_par.png
+INPUT ./images/z_dipolos_par.png
+INPUT ./images/z_dipolos_par.png
+INPUT ./images/z_dipolos_par.png
 INPUT ./images/fa.png
 INPUT ./images/fa.png
 INPUT ./images/fa.png
@@ -139,6 +143,10 @@ INPUT ./images/esfericas.png
 INPUT ./images/esfericas.png
 INPUT ./images/esfericas.png
 INPUT ./images/esfericas.png
+INPUT ./images/teoria_imagenes.png
+INPUT ./images/teoria_imagenes.png
+INPUT ./images/teoria_imagenes.png
+INPUT ./images/teoria_imagenes.png
 INPUT form.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb

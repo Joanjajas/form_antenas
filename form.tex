@@ -15,7 +15,7 @@
 \begin{document}
 
 \section*{\underline{Arrays}}
-\( \vec{E}_{dipolo} = j \eta \frac{ e^{-jkr} }{ 2 \pi r } I \frac{ \cos\left(\frac{\pi}{2} \cos(\theta)\right) }{\sin{\theta}} \hat{\theta} ,\ \eta = 120\pi \)
+\( \vec{E}_{dipolo} = j \eta \frac{ e^{-jkr} }{ 2 \pi r } I \frac{ \cos\left(\frac{\pi}{2} \cos(\theta)\right) }{\sin{\theta}} \hat{\theta},\ \eta = 120\pi \)
 
 \vspace{0.5cm}
 \( Z_{dip}^{\lambda / 2} = 73 + j42 \  \Omega \)
@@ -27,10 +27,13 @@
 \( D_{max} = \frac{ S_{max} }{ P_{rad}} 4\pi r^2  = \frac{ \left|E_{max}\right|^2 }{ P_{rad}} \frac{4\pi r^2}{\eta} = \frac{120}{R^{tot}_{in-dip}}N^2 \)
 
 \vspace{0.5cm}
-\( D_{boradside} \simeq  2N \dfrac{d}{\lambda}\)
+\( D_{broadside} \simeq  2N \dfrac{d}{\lambda}\)
 
 \vspace{0.5cm}
 \( D_{endfire} \simeq  4N \dfrac{d}{\lambda}\)
+
+\vspace{0.5cm}
+\( D \simeq \frac{4\pi}{\Delta\theta_{-3db}^{E} \Delta\theta_{-3db}^{H}} \)
 
 \vspace{0.5cm}
 \( \text{Margen visible: } [-kd + \alpha,\ kd + \alpha] \)
@@ -46,7 +49,7 @@
 \)
 
 \vspace{0.5cm}
-\( \text{Nulos del FA: } \frac{ 2\pi }{ N }, \frac{ 4\pi }{ N }, \frac{ 6\pi }{ N }, \, \dots  ,2\pi \frac{N - 1}{N} \)
+\( \text{Nulos del FA: } \pm\frac{ 2\pi }{ N }, \pm\frac{ 4\pi }{ N }, \pm\frac{ 6\pi }{ N }, \, \dots  ,\pm2\pi \frac{N - 1}{N} \)
 
 \vspace{0.5cm}
 \( NLPS = 20 \log_{10} \left(\frac{ N }{\left|FA\left(\frac{ 3\pi }{ N }\right)\right|} \right) = 20 \log_{10} \left(N \sin\left( \frac{ 3\pi }{ 2N }\right)\right) dB \)
@@ -66,7 +69,18 @@
 \vspace{0.5cm}
 \section*{\underline{Bocinas}}
 
-\( \vec{E}_{apertura} = E_0 \cos \left( \frac{\pi}{a_g}x \right) \hat{y} \)
+\( \text{Distribución de corriente} \rightarrow E_0 \cos \left( \frac{\pi}{a_g}x \right) \hat{y} \)
+
+\vspace{0.5cm}
+\( \vec{E}_x^{ap}(\theta, \varphi) = \frac{e^{-jkr}}{4\pi r} E_o F(K_x) G(K_y)\ (\cos(\theta + 1))\ (\cos(\varphi) \hat{\theta} -  \sin(\varphi)\hat{\theta}) \)
+
+\vspace{0.5cm}
+\( \vec{E}_y^{ap}(\theta, \varphi) = \frac{e^{-jkr}}{4\pi r} E_o F(K_x) G(K_y)\ (\cos(\theta + 1))\ (\sin(\varphi) \hat{\theta} +  \cos(\varphi)\hat{\theta}) \)
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\columnwidth]{distribuciones.png}
+\end{figure}
 
 \vspace{0.5cm}
 \( s = \frac{ b^2 }{ 8\lambda L_E}, \ s_{opt} = \frac{1}{4} \)
@@ -97,7 +111,7 @@ Error de fase: \( \left \{
 \vspace{0.5cm}
 \( \eta^{opt}_{il ,\, H} =  \eta^{opt}_{il ,\, E} \simeq 0.6485 \)
 
-\newpage
+\vspace{0.5cm}
 \section*{\underline{Reflectores}}
 
 \( R = f + (f - R\cos(\alpha)) \Rightarrow R = \frac{2f}{1 + cos(\alpha)} = \frac{f}{\cos^2\left(\frac{\alpha}{2}\right)}\)
@@ -106,10 +120,22 @@ Error de fase: \( \left \{
 \( \rho = R \sin(\alpha) = 2f \tan\left(\frac{\alpha}{2}\right) \)
 
 \vspace{0.5cm}
+\( \tau = \tau_d + \tau_c\)
+
+\vspace{0.5cm}
 \( \tau_c = 40\log_{10}\left(\cos\left(\frac{\beta}{2}\right)\right) dB \)
 
 \vspace{0.5cm}
+\( \tau_d = 20\log_{10}(d_{boc}(\beta)) dB \)
+
+\vspace{0.5cm}
 \( \frac{f}{D} = \frac{1}{4\tan\left(\frac{\beta}{2}\right)} \)
+
+\vspace{0.5cm}
+\( D = \frac{4\pi}{\lambda^2} \eta_{il} \)
+
+\vspace{0.5cm}
+\( G = \frac{4\pi}{\lambda^2} \eta_{il} \eta_{s},\ \eta_{s} = \frac{P_{refl}}{P_T} \)
 
 \newpage
 
@@ -164,7 +190,7 @@ Error de fase: \( \left \{
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\columnwidth]{z_dipolos.png}
+	\includegraphics[width=\columnwidth]{z_dipolos_par.png}
 \end{figure}
 
 \begin{figure}[H]
@@ -218,6 +244,12 @@ Error de fase: \( \left \{
 	\(x = r \sin(\theta) \cos(\varphi)\)\\
 	\(y = r \sin(\theta) \sin(\varphi)\)\\
 	\(z = r \cos(\theta)\)
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\textbf{Teoría de las imágenes}
+	\includegraphics[width=\columnwidth]{teoria_imagenes.png}
 \end{figure}
 
 \end{document}
