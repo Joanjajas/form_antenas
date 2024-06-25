@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.14)  18 JUN 2024 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.14)  18 JUN 2024 23:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -296,108 +296,113 @@ File: ./images/distribuciones.png Graphic file (type png)
 <use ./images/distribuciones.png>
 Package pdftex.def Info: ./images/distribuciones.png  used on input line 83.
 (pdftex.def)             Requested size: 241.84843pt x 68.23816pt.
-[1
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/distribuciones.png>]
-<./images/directividad_broadside.png, id=21, 689.57625pt x 392.46625pt>
-File: ./images/directividad_broadside.png Graphic file (type png)
-<use ./images/directividad_broadside.png>
-Package pdftex.def Info: ./images/directividad_broadside.png  used on input line 150.
-(pdftex.def)             Requested size: 92.47147pt x 52.62732pt.
-<./images/directividad_endfire.png, id=22, 689.57625pt x 392.46625pt>
-File: ./images/directividad_endfire.png Graphic file (type png)
-<use ./images/directividad_endfire.png>
-Package pdftex.def Info: ./images/directividad_endfire.png  used on input line 156.
-(pdftex.def)             Requested size: 92.47147pt x 52.62732pt.
-<./images/bocinas.png, id=23, 935.495pt x 287.0725pt>
-File: ./images/bocinas.png Graphic file (type png)
-<use ./images/bocinas.png>
-Package pdftex.def Info: ./images/bocinas.png  used on input line 164.
-(pdftex.def)             Requested size: 241.84843pt x 74.21219pt.
-<./images/bocina_e.png, id=24, 250.9375pt x 164.615pt>
-File: ./images/bocina_e.png Graphic file (type png)
-<use ./images/bocina_e.png>
-Package pdftex.def Info: ./images/bocina_e.png  used on input line 171.
-(pdftex.def)             Requested size: 92.47147pt x 60.66295pt.
-<./images/bocina_h.png, id=25, 250.9375pt x 221.82875pt>
-File: ./images/bocina_h.png Graphic file (type png)
-<use ./images/bocina_h.png>
-Package pdftex.def Info: ./images/bocina_h.png  used on input line 177.
-(pdftex.def)             Requested size: 92.47147pt x 81.74701pt.
-<./images/directividad_bocina_e.png, id=26, 649.42625pt x 425.59pt>
-File: ./images/directividad_bocina_e.png Graphic file (type png)
-<use ./images/directividad_bocina_e.png>
-Package pdftex.def Info: ./images/directividad_bocina_e.png  used on input line 185.
-(pdftex.def)             Requested size: 92.47147pt x 60.59525pt.
-<./images/directividad_bocina_h.png, id=27, 649.42625pt x 425.59pt>
-File: ./images/directividad_bocina_h.png Graphic file (type png)
-<use ./images/directividad_bocina_h.png>
-Package pdftex.def Info: ./images/directividad_bocina_h.png  used on input line 191.
-(pdftex.def)             Requested size: 92.47147pt x 60.59525pt.
-<./images/z_dipolos_par.png, id=28, 776.9025pt x 470.75874pt>
-File: ./images/z_dipolos_par.png Graphic file (type png)
-<use ./images/z_dipolos_par.png>
-Package pdftex.def Info: ./images/z_dipolos_par.png  used on input line 197.
-(pdftex.def)             Requested size: 241.84843pt x 146.54427pt.
-<./images/fa.png, id=29, 478.78876pt x 385.44pt>
-File: ./images/fa.png Graphic file (type png)
-<use ./images/fa.png>
-Package pdftex.def Info: ./images/fa.png  used on input line 203.
-(pdftex.def)             Requested size: 241.84843pt x 194.69565pt.
-<./images/reflector.png, id=30, 420.57124pt x 428.60126pt>
-File: ./images/reflector.png Graphic file (type png)
-<use ./images/reflector.png>
-Package pdftex.def Info: ./images/reflector.png  used on input line 211.
-(pdftex.def)             Requested size: 168.22551pt x 171.43745pt.
-<./images/reflector_plano_e.png, id=31, 450.68375pt x 516.93124pt>
-File: ./images/reflector_plano_e.png Graphic file (type png)
-<use ./images/reflector_plano_e.png>
-Package pdftex.def Info: ./images/reflector_plano_e.png  used on input line 218.
-(pdftex.def)             Requested size: 92.47147pt x 106.05835pt.
-<./images/reflector_plano_h.png, id=32, 450.68375pt x 516.93124pt>
-File: ./images/reflector_plano_h.png Graphic file (type png)
-<use ./images/reflector_plano_h.png>
-Package pdftex.def Info: ./images/reflector_plano_h.png  used on input line 224.
-(pdftex.def)             Requested size: 92.47147pt x 106.05835pt.
-<./images/diagrama_dipolo.png, id=33, 434.62375pt x 313.17pt>
-File: ./images/diagrama_dipolo.png Graphic file (type png)
-<use ./images/diagrama_dipolo.png>
-Package pdftex.def Info: ./images/diagrama_dipolo.png  used on input line 232.
-(pdftex.def)             Requested size: 92.47147pt x 66.62778pt.
-<./images/espira_elemental.png, id=34, 359.3425pt x 294.09875pt>
-File: ./images/espira_elemental.png Graphic file (type png)
-<use ./images/espira_elemental.png>
-Package pdftex.def Info: ./images/espira_elemental.png  used on input line 238.
-(pdftex.def)             Requested size: 92.47147pt x 75.68303pt.
-<./images/esfericas.png, id=35, 1927.2pt x 1745.52126pt>
+<./images/esfericas.png, id=3, 1927.2pt x 1745.52126pt>
 File: ./images/esfericas.png Graphic file (type png)
 <use ./images/esfericas.png>
-Package pdftex.def Info: ./images/esfericas.png  used on input line 245.
+Package pdftex.def Info: ./images/esfericas.png  used on input line 147.
 (pdftex.def)             Requested size: 192.7313pt x 174.56235pt.
-<./images/teoria_imagenes.png, id=36, 543.02875pt x 158.5925pt>
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/distribuciones.png> <./images/esfericas.png>]
+<./images/directividad_broadside.png, id=24, 689.57625pt x 392.46625pt>
+File: ./images/directividad_broadside.png Graphic file (type png)
+<use ./images/directividad_broadside.png>
+Package pdftex.def Info: ./images/directividad_broadside.png  used on input line 161.
+(pdftex.def)             Requested size: 92.47147pt x 52.62732pt.
+<./images/directividad_endfire.png, id=25, 689.57625pt x 392.46625pt>
+File: ./images/directividad_endfire.png Graphic file (type png)
+<use ./images/directividad_endfire.png>
+Package pdftex.def Info: ./images/directividad_endfire.png  used on input line 167.
+(pdftex.def)             Requested size: 92.47147pt x 52.62732pt.
+<./images/bocinas.png, id=26, 935.495pt x 287.0725pt>
+File: ./images/bocinas.png Graphic file (type png)
+<use ./images/bocinas.png>
+Package pdftex.def Info: ./images/bocinas.png  used on input line 175.
+(pdftex.def)             Requested size: 241.84843pt x 74.21219pt.
+<./images/bocina_e.png, id=27, 250.9375pt x 164.615pt>
+File: ./images/bocina_e.png Graphic file (type png)
+<use ./images/bocina_e.png>
+Package pdftex.def Info: ./images/bocina_e.png  used on input line 182.
+(pdftex.def)             Requested size: 92.47147pt x 60.66295pt.
+<./images/bocina_h.png, id=28, 250.9375pt x 221.82875pt>
+File: ./images/bocina_h.png Graphic file (type png)
+<use ./images/bocina_h.png>
+Package pdftex.def Info: ./images/bocina_h.png  used on input line 188.
+(pdftex.def)             Requested size: 92.47147pt x 81.74701pt.
+<./images/directividad_bocina_e.png, id=29, 649.42625pt x 425.59pt>
+File: ./images/directividad_bocina_e.png Graphic file (type png)
+<use ./images/directividad_bocina_e.png>
+Package pdftex.def Info: ./images/directividad_bocina_e.png  used on input line 196.
+(pdftex.def)             Requested size: 92.47147pt x 60.59525pt.
+<./images/directividad_bocina_h.png, id=30, 649.42625pt x 425.59pt>
+File: ./images/directividad_bocina_h.png Graphic file (type png)
+<use ./images/directividad_bocina_h.png>
+Package pdftex.def Info: ./images/directividad_bocina_h.png  used on input line 202.
+(pdftex.def)             Requested size: 92.47147pt x 60.59525pt.
+<./images/z_dipolos_par.png, id=31, 776.9025pt x 470.75874pt>
+File: ./images/z_dipolos_par.png Graphic file (type png)
+<use ./images/z_dipolos_par.png>
+Package pdftex.def Info: ./images/z_dipolos_par.png  used on input line 208.
+(pdftex.def)             Requested size: 241.84843pt x 146.54427pt.
+<./images/fa.png, id=32, 478.78876pt x 385.44pt>
+File: ./images/fa.png Graphic file (type png)
+<use ./images/fa.png>
+Package pdftex.def Info: ./images/fa.png  used on input line 214.
+(pdftex.def)             Requested size: 241.84843pt x 194.69565pt.
+<./images/reflector.png, id=33, 420.57124pt x 428.60126pt>
+File: ./images/reflector.png Graphic file (type png)
+<use ./images/reflector.png>
+Package pdftex.def Info: ./images/reflector.png  used on input line 220.
+(pdftex.def)             Requested size: 168.22551pt x 171.43745pt.
+<./images/eficiencias.png, id=34, 484.81125pt x 363.3575pt>
+File: ./images/eficiencias.png Graphic file (type png)
+<use ./images/eficiencias.png>
+Package pdftex.def Info: ./images/eficiencias.png  used on input line 226.
+(pdftex.def)             Requested size: 241.84843pt x 181.26247pt.
+<./images/reflector_plano_e.png, id=35, 450.68375pt x 516.93124pt>
+File: ./images/reflector_plano_e.png Graphic file (type png)
+<use ./images/reflector_plano_e.png>
+Package pdftex.def Info: ./images/reflector_plano_e.png  used on input line 233.
+(pdftex.def)             Requested size: 92.47147pt x 106.05835pt.
+<./images/reflector_plano_h.png, id=36, 450.68375pt x 516.93124pt>
+File: ./images/reflector_plano_h.png Graphic file (type png)
+<use ./images/reflector_plano_h.png>
+Package pdftex.def Info: ./images/reflector_plano_h.png  used on input line 239.
+(pdftex.def)             Requested size: 92.47147pt x 106.05835pt.
+<./images/diagrama_dipolo.png, id=37, 434.62375pt x 313.17pt>
+File: ./images/diagrama_dipolo.png Graphic file (type png)
+<use ./images/diagrama_dipolo.png>
+Package pdftex.def Info: ./images/diagrama_dipolo.png  used on input line 247.
+(pdftex.def)             Requested size: 92.47147pt x 66.62778pt.
+<./images/espira_elemental.png, id=38, 359.3425pt x 294.09875pt>
+File: ./images/espira_elemental.png Graphic file (type png)
+<use ./images/espira_elemental.png>
+Package pdftex.def Info: ./images/espira_elemental.png  used on input line 253.
+(pdftex.def)             Requested size: 92.47147pt x 75.68303pt.
+<./images/teoria_imagenes.png, id=39, 543.02875pt x 158.5925pt>
 File: ./images/teoria_imagenes.png Graphic file (type png)
 <use ./images/teoria_imagenes.png>
-Package pdftex.def Info: ./images/teoria_imagenes.png  used on input line 256.
+Package pdftex.def Info: ./images/teoria_imagenes.png  used on input line 260.
 (pdftex.def)             Requested size: 241.84843pt x 70.6327pt.
- [2 <./images/directividad_broadside.png> <./images/directividad_endfire.png> <./images/bocinas.png> <./images/bocina_e.png> <./images/bocina_h.png> <./images/directividad_bocina_e.png> <./images/directividad_bocina_h.png> <./images/z_dipolos_par.png> <./images/fa.png> <./images/reflector.png> <./images/reflector_plano_e.png> <./images/reflector_plano_h.png> <./images/diagrama_dipolo.png> <./images/espira_elemental.png> <./images/esfericas.png> <./images/teoria_imagenes.png>] (./form.aux)
+ [2 <./images/directividad_broadside.png> <./images/directividad_endfire.png> <./images/bocinas.png> <./images/bocina_e.png> <./images/bocina_h.png> <./images/directividad_bocina_e.png> <./images/directividad_bocina_h.png> <./images/z_dipolos_par.png> <./images/fa.png> <./images/reflector.png> <./images/eficiencias.png> <./images/reflector_plano_e.png> <./images/reflector_plano_h.png> <./images/diagrama_dipolo.png> <./images/espira_elemental.png> <./images/teoria_imagenes.png>] (./form.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2956 strings out of 474116
- 49458 string characters out of 5743682
- 1951187 words of memory out of 5000000
- 25312 multiletter control sequences out of 15000+600000
+ 2965 strings out of 474116
+ 49716 string characters out of 5743682
+ 1952187 words of memory out of 5000000
+ 25321 multiletter control sequences out of 15000+600000
  562947 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,243b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on form.pdf (2 pages, 3169961 bytes).
+Output written on form.pdf (2 pages, 3238460 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

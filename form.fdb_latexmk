@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1718743277.72513 "/Users/joan/test/form/form.tex" "form.pdf" "form" 1718743279.69798 0
-  "/Users/joan/test/form/form.tex" 1718743277.52791 6811 b8309ae6008a2f175bbeb472f81c0baf ""
+["pdflatex"] 1718744690.68581 "/Users/joan/test/form/form.tex" "form.pdf" "form" 1718744692.73303 0
+  "/Users/joan/test/form/form.tex" 1718744690.48502 6924 0f98ec22de5867a5ad6ce64710638576 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -58,8 +58,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1710440525.45118 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1710440432 8221434 4921b54d880d8d4f89475106ec973dda ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "form.aux" 1718743279.64159 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "form.tex" 1718743277.52791 6811 b8309ae6008a2f175bbeb472f81c0baf ""
+  "form.aux" 1718744692.67779 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "form.tex" 1718744690.48502 6924 0f98ec22de5867a5ad6ce64710638576 ""
   "images/bocina_e.png" 1717261244.4181 114653 09b2550b4e5590e73ea6487f7812d5da ""
   "images/bocina_h.png" 1717261253.99153 168637 af5088435c861acefc6b6840e03d8df6 ""
   "images/bocinas.png" 1717261008.37959 163863 d814e7633324c6a8e39cda30c93f2c0f ""
@@ -69,6 +69,7 @@
   "images/directividad_broadside.png" 1717258894.22733 164497 543f596a109f3cd5f8ddf6c603da3ace ""
   "images/directividad_endfire.png" 1717258886.8411 174293 c115546f57b1bf2d4076d9c6311f4816 ""
   "images/distribuciones.png" 1718713168.92045 121940 38b1853d91cc63d02782f4d642a43dac ""
+  "images/eficiencias.png" 1718744375.61468 110801 7b211c27fbf4769140707573db8c5e2c ""
   "images/esfericas.png" 1717251207.34522 151961 2f681bffaebce3bf60e0c37011d8bcaa ""
   "images/espira_elemental.png" 1717330953.9432 508896 d31d8d6c92b03e6a53f304732665f582 ""
   "images/fa.png" 1717254691.55532 87694 5a0aca8dd23ae4915a80f93bf3c713c0 ""

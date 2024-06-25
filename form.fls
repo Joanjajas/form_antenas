@@ -79,8 +79,12 @@ INPUT ./images/distribuciones.png
 INPUT ./images/distribuciones.png
 OUTPUT form.pdf
 INPUT ./images/distribuciones.png
-INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT ./images/esfericas.png
+INPUT ./images/esfericas.png
+INPUT ./images/esfericas.png
+INPUT ./images/esfericas.png
+INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./images/directividad_broadside.png
 INPUT ./images/directividad_broadside.png
 INPUT ./images/directividad_broadside.png
@@ -121,6 +125,10 @@ INPUT ./images/reflector.png
 INPUT ./images/reflector.png
 INPUT ./images/reflector.png
 INPUT ./images/reflector.png
+INPUT ./images/eficiencias.png
+INPUT ./images/eficiencias.png
+INPUT ./images/eficiencias.png
+INPUT ./images/eficiencias.png
 INPUT ./images/reflector_plano_e.png
 INPUT ./images/reflector_plano_e.png
 INPUT ./images/reflector_plano_e.png
@@ -139,10 +147,6 @@ INPUT ./images/espira_elemental.png
 INPUT ./images/espira_elemental.png
 INPUT ./images/espira_elemental.png
 INPUT ./images/espira_elemental.png
-INPUT ./images/esfericas.png
-INPUT ./images/esfericas.png
-INPUT ./images/esfericas.png
-INPUT ./images/esfericas.png
 INPUT ./images/teoria_imagenes.png
 INPUT ./images/teoria_imagenes.png
 INPUT ./images/teoria_imagenes.png
